@@ -1,9 +1,9 @@
----
 name: backup
 
 on:
-  schedule:
-    - cron: "32 02 * * *"
+  workflow_dispatch:
+  #schedule:
+  #  - cron: "32 02 * * *"
 
 jobs:
   backup:
